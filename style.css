@@ -74,8 +74,7 @@
     font-weight: 100;
     line-height: 25px;
 }
-
-#btn{
+.btn1{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -102,23 +101,27 @@ span{
     transition: 0.5s;
 }
 
-#btn:hover span{
+.btn1:hover span{
     width: 100%;
 }
 
-#btn:hover{
+.btn1:hover{
     border: none;
 }
 
-.bedroom, .dining, .kitchen, .backyard{
+.room{
     display: none;
-    color: white;
+    color: red;
     font-weight: bold;
     text-align: center;
     gap: 20px;
 }
 
-.bedroom, .dining, .kitchen, .backyard, button{
+.room h2{
+    font-size: 40px;
+}
+
+.room button{
     color: white;
     background-color: #009688;
     border: none;
@@ -126,14 +129,17 @@ span{
     font-weight: bold;
 }
 
-#bb, #bd, #bk, #by{
+.bi{
     width: 150px;
     height: 40px;
+    transition: color .3s linear, background-color .3s linear, border .3s linear;
 }
 
-#bb, #bd, #bk, #by{
-    width: 150px;
-    height: 40px;
+.bi:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px dashed #009688;
+    color: #009688;
 }
 
 .bedroom{

@@ -30,7 +30,7 @@ img2.addEventListener('click', function(){
 
 button2.addEventListener('click', function(){
     content.style.display = 'flex'
-    kitchen.style.display = 'none'
+    dining.style.display = 'none'
 })
 
 img3.addEventListener('click', function(){
