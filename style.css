@@ -75,7 +75,7 @@
     line-height: 25px;
 }
 
-button{
+#btn{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -102,10 +102,73 @@ span{
     transition: 0.5s;
 }
 
-button:hover span{
+#btn:hover span{
     width: 100%;
 }
 
-button:hover{
+#btn:hover{
     border: none;
 }
+
+.bedroom, .dining, .kitchen, .backyard{
+    display: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    gap: 20px;
+}
+
+.bedroom, .dining, .kitchen, .backyard, button{
+    color: white;
+    background-color: #009688;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#bb, #bd, #bk, #by{
+    width: 150px;
+    height: 40px;
+}
+
+#bb, #bd, #bk, #by{
+    width: 150px;
+    height: 40px;
+}
+
+.bedroom{
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/img1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dining{
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/img2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kitchen{
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/img3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backyard{
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/img4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
