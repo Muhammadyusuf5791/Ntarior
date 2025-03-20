@@ -25,7 +25,7 @@ button1.addEventListener('click', function(){
 
 img2.addEventListener('click', function(){
     content.style.display = 'none'
-    dining.style.display = 'flex'
+    dining.style.cssText = 'display: flex; justify-content: center; align-items: center; flex-direction: column;'
 })
 
 button2.addEventListener('click', function(){
@@ -35,7 +35,7 @@ button2.addEventListener('click', function(){
 
 img3.addEventListener('click', function(){
     content.style.display = 'none'
-    kitchen.style.display = 'flex'
+    kitchen.style.cssText = 'display: flex; justify-content: center; align-items: center; flex-direction: column;'
 })
 
 button3.addEventListener('click', function(){
@@ -45,7 +45,7 @@ button3.addEventListener('click', function(){
 
 img4.addEventListener('click', function(){
     content.style.display = 'none'
-    backyard.style.display = 'flex'
+    backyard.style.cssText = 'display: flex; justify-content: center; align-items: center; flex-direction: column;'
 })
 
 button4.addEventListener('click', function(){
